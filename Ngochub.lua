@@ -2,8 +2,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "ngoc roblox",
-         Animation = "Youtube: ngoc roblox"
+         Title = "ngoc_2008",
+         Animation = "Youtube: ngoc2k8 Roblox"
          },
         Key = {
         KeySystem = false,
@@ -30,12 +30,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab2o = MakeTab({Name = "Script kaitun"})
-     
+     local Tab1o = MakeTab({Name = "Script Farm"})
+        local Tab2o = MakeTab({Name = "kaitun"})
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "ngoc",
+     Name = "Redz Hub",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
@@ -44,11 +44,19 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
   end
+  })  
+  
+  AddButton(Tab1o, {
+     Name = "Redz Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))()
+  end
   })
   
   AddButton(Tab1o, {
-     Name = "ngoc hub",
+     Name = "Redz Hub",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ngoc2k9/Hh/refs/heads/main/ngoc%20RobloxBF.lua"))()
+loadstring(game:https://raw.githubusercontent.com/ngoc2k9/Hh/refs/heads/main/ngoc%20RobloxBF.lua
   end
   })
+  
