@@ -1,2 +1,0 @@
-# Ngoc.lua
-Nhóc.lua
